@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#3F51B5"
+    android:padding="@dimen/widget_margin"
+    android:orientation="vertical"
+    android:id="@+id/widget_linear">
+
+    <TextView
+        android:id="@+id/appwidget_recipe_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="#9C27B0"
+        android:contentDescription="@string/appwidget_text"
+        android:text="BAKING APP"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/widget_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/widget_list_row">
+
+
+    </ListView>
+
+</LinearLayout>
