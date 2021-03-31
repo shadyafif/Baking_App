@@ -33,9 +33,8 @@ An application that displays recipes of food and can view the ingredients of eac
 - Minimum sdk v21
 - Build tool v29.0.3
 - Compile sdk v30
-
 ## Youtube link 
-https://youtu.be/OYLM7NJ8uGA
+https://www.youtube.com/watch?v=4B0mWEwkw9A
 ## Licence
 ### MIT Licence 
 ### Copyright (c) 2021 SHADY AFIF 
